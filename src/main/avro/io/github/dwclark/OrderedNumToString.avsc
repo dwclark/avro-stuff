@@ -1,0 +1,10 @@
+{
+    "type":"record",
+    "name":"OrderedNumToString",
+    "namespace": "io.github.dwclark",
+    "doc":"Translation from number to string representation",
+    "fields":[
+        {"name":"num","type":"int","order":"ascending"},
+        {"name":"str","type":"string","order":"ignore"}
+    ]
+}

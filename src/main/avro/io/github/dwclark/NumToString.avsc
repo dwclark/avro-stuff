@@ -1,0 +1,10 @@
+{
+    "type":"record",
+    "name":"NumToString",
+    "namespace": "io.github.dwclark",
+    "doc":"Translation from number to string representation",
+    "fields":[
+        {"name":"num","type":"int"},
+        {"name":"str","type":"string"}
+    ]
+}
